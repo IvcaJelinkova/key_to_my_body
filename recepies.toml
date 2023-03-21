@@ -1,21 +1,126 @@
-[[fruit]]
-  name = "apple" # I am a property in fruit table/map
+[[recept]]
+  jméno = "Palačinky" 
 
-  [fruit.geometry]
-    shape = "round"
-    note = "I am a property in geometry table/map"
+  [[recept.typ_jídla]]
+    typ = "snídaně"
+  
+  [[recept.typ_jídla]]
+    typ = "oběd"
 
-  [[fruit.color]]
-    name = "red"
-    note = "I am an array item in apple fruit's table/map"
+  [[recept.typ_jídla]]
+    typ = "večeře"
 
-  [[fruit.color]]
-    name = "green"
-    note = "I am in the same array as red"
+  [[recept.suroviny]]
+    jméno = "hladká mouka"
+    množství = 60
+    jednotka = "g"
 
-[[fruit]]
-  name = "banana"
+  [[recept.suroviny]]
+    jméno = "celozrnná mouka"
+    množství = 60
+    jednotka = "g"
 
-  [[fruit.color]]
-    name = "yellow"
-    note = "I am an array item in banana fruit's table/map"
+  [[recept.suroviny]]
+    jméno = "sůl"
+    množství = 1
+    jednotka = "g"
+
+  [[recept.suroviny]]
+    jméno = "vejce"
+    množství = 1
+    jednotka = "ks"
+
+  [[recept.suroviny]]
+    jméno = "mléko 1,5 % tuku"
+    množství = 150
+    poznámka = "ml"
+
+  [[recept.suroviny]]
+    jméno = "sádlo"
+    množství = 10
+    poznámka = "g"
+
+  [[recept.suroviny]]
+    jméno = "marmeláda"
+    množství = 15
+    poznámka = "g"
+
+  [[recept.suroviny]]
+    jméno = "big bueno big boy"
+    množství = 10
+    poznámka = "g"
+
+  [recept.postup]
+    postup = """Smíchám mouku a sůl. Vejce rozkvedlám v mléku. Mléko přišlehávám k mouce. Těsto je bez žmolků, konzistence husté smetany. Nechám alespoň 30 minut až 8 hodin odpočinout.
+    Rozehřeju nerezovou pánev, přidám lžičku sádla a jakmile se z něj kouří, zmírním plamen na střední. 
+    Malou naběračku těsta vliju do pánve, kterou okamžitě nakláním, aby se těsto rozteklo. 
+    Opákám z obou stran. Pokud se palačinky trhají, přidám mouku. 
+    Mažu s marmeládou a ořechovým máslem. """
+
+
+
+
+[[recept]]
+  jméno = "Míchaná vajíčka"
+
+  [[recept.typ_jídla]]
+    typ = "snídaně"
+
+  [[recept.typ_jídla]]
+    typ = "večeře"
+
+  [[recept.suroviny]]
+    jméno = "vejce"
+    množství = 2
+    jednotka = "ks"
+
+  [[recept.suroviny]]
+    jméno = "smetana 12 %"
+    množství = 15
+    jednotka = "ml"
+
+  [[recept.suroviny]]
+    jméno = "sůl"
+    množství = 2
+    jednotka = "g"
+
+  [[recept.suroviny]]
+    jméno = "cibule"
+    množství = 30
+    jednotka = "g"
+
+  [[recept.suroviny]]
+    jméno = "chléb kváskový"
+    množství = 50
+    jednotka = "g"
+
+  [[recept.suroviny]]
+    jméno = "paprika"
+    množství = 30
+    jednotka = "g"
+
+  [[recept.suroviny]]
+    jméno = "okurka"
+    množství = 30
+    jednotka = "g"
+
+  [[recept.suroviny]]
+    jméno = "rajče"
+    množství = 30
+    jednotka = "g"
+
+  [recept.postup]
+    postup = """Rozkvedlám vajíčka se smetanou a solí. Rozpálím pánem, přidám trochu oleje, na kterém osmahnu cibuli. 
+    Jakmile je skelná, přidám směs s vejci. Nechám zhruba minutu dvě a míchám do té doby, než mám směs ztuhlou. 
+    Když jsou v ní ještě zbylá tekutá místa, pánev stahuji a mohu podávat. """
+
+
+
+
+
+
+
+
+
+
+
