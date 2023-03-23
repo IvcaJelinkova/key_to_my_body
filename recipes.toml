@@ -1,0 +1,102 @@
+[[recipes]]
+name = "Palačinky"
+meal_types = ["breakfast", "lunch", "dinner"]
+
+  [[recipes.ingredients]]
+    name = "hladká mouka"
+    amount = 60
+    unit = "g"
+
+  [[recipes.ingredients]]
+    name = "celozrnná mouka"
+    amount = 60
+    unit = "g"
+
+  [[recipes.ingredients]]
+    name = "sůl"
+    amount = 1
+    unit = "g"
+
+  [[recipes.ingredients]]
+    name = "vejce"
+    amount = 1
+    unit = "ks"
+
+  [[recipes.ingredients]]
+    name = "mléko 1,5 % tuku"
+    amount = 150
+    poznamka = "ml"
+
+  [[recipes.ingredients]]
+    name = "sádlo"
+    amount = 10
+    poznamka = "g"
+
+  [[recipes.ingredients]]
+    name = "marmeláda"
+    amount = 15
+    poznamka = "g"
+
+  [[recipes.ingredients]]
+    name = "big bueno big boy"
+    amount = 10
+    poznamka = "g"
+
+  [recipes.procedure]
+    procedure = """Smíchám mouku a sůl. Vejce rozkvedlám v mléku. Mléko přišlehávám k mouce. Těsto je bez žmolků, konzistence husté smetany. Nechám alespoň 30 minut až 8 hodin odpočinout.
+    Rozehřeju nerezovou pánev, přidám lžičku sádla a jakmile se z něj kouří, zmírním plamen na střední. 
+    Malou naběračku těsta vliju do pánve, kterou okamžitě nakláním, aby se těsto rozteklo. 
+    Opákám z obou stran. Pokud se palačinky trhají, přidám mouku. 
+    Mažu s marmeládou a ořechovým máslem. """
+
+
+
+
+[[recipes]]
+name = "Míchaná vajíčka"
+meal_types = ["breakfast", "dinner"]
+
+  [[recipes.ingredients]]
+    name = "vejce"
+    amount = 2
+    unit = "ks"
+
+  [[recipes.ingredients]]
+    name = "smetana 12 %"
+    amount = 15
+    unit = "ml"
+
+  [[recipes.ingredients]]
+    name = "sůl"
+    amount = 2
+    unit = "g"
+
+  [[recipes.ingredients]]
+    name = "cibule"
+    amount = 30
+    unit = "g"
+
+  [[recipes.ingredients]]
+    name = "chléb kváskový"
+    amount = 50
+    unit = "g"
+
+  [[recipes.ingredients]]
+    name = "paprika"
+    amount = 30
+    unit = "g"
+
+  [[recipes.ingredients]]
+    name = "okurka"
+    amount = 30
+    unit = "g"
+
+  [[recipes.ingredients]]
+    name = "rajče"
+    amount = 30
+    unit = "g"
+
+  [recipes.procedure]
+    procedure = """Rozkvedlám vajíčka se smetanou a solí. Rozpálím pánem, přidám trochu oleje, na kterém osmahnu cibuli. 
+    Jakmile je skelná, přidám směs s vejci. Nechám zhruba minutu dvě a míchám do té doby, než mám směs ztuhlou. 
+    Když jsou v ní ještě zbylá tekutá místa, pánev stahuji a mohu podávat. """
